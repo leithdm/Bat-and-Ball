@@ -1,12 +1,6 @@
 # Bat-And-Ball-iOS
 
-A particulary "nasty" yet "festive" little game, sure to interest beginner developers into the world of iOS gaming. 
+##A "festive" game of bat and ball.
 
-Enjoy :-)
+[![Bat and Ball](https://j.gifs.com/Z605N8.gif)](https://youtu.be/BXoOuaFcMVo)
 
-Acknowledgement to Simon Allardice and his lynda.com tutorials for this one. 
-
-![alt tag](https://github.com/leithdm/Bat-And-Ball-iOS/blob/master/scr_2.PNG)
-![alt tag](https://github.com/leithdm/Bat-And-Ball-iOS/blob/master/scr_3.PNG)
-![alt tag](https://github.com/leithdm/Bat-And-Ball-iOS/blob/master/scr_4.PNG)
-![alt tag](https://github.com/leithdm/Bat-And-Ball-iOS/blob/master/scr_1.PNG)
