@@ -163,7 +163,6 @@
 				019F46E219BB04A300E798FD /* MyScene.m */,
 				019F47F519BE312400E798FD /* EndScene.h */,
 				019F47F619BE312400E798FD /* EndScene.m */,
-				019F46E419BB04A300E798FD /* Spaceship.png */,
 				019F46E619BB04A300E798FD /* Images.xcassets */,
 				019F46D019BB04A300E798FD /* Supporting Files */,
 			);
@@ -173,6 +172,7 @@
 		019F46D019BB04A300E798FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				019F46E419BB04A300E798FD /* Spaceship.png */,
 				01805F2819C0404700ADE0E9 /* spark.png */,
 				019F47EF19BE23F200E798FD /* blip.caf */,
 				01805ED119BEE38800ADE0E9 /* paddle.m4a */,
@@ -256,7 +256,7 @@
 		019F46BC19BB04A300E798FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "DARREN LEITH";
 				TargetAttributes = {
 					019F46C319BB04A300E798FD = {
@@ -398,6 +398,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -459,6 +460,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "basicGame/basicGame-Prefix.pch";
 				INFOPLIST_FILE = "basicGame/basicGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARREN-LEITH.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -474,6 +476,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "basicGame/basicGame-Prefix.pch";
 				INFOPLIST_FILE = "basicGame/basicGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARREN-LEITH.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -496,6 +499,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "basicGameTests/basicGameTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARREN-LEITH.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -514,6 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "basicGame/basicGame-Prefix.pch";
 				INFOPLIST_FILE = "basicGameTests/basicGameTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.DARREN-LEITH.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
